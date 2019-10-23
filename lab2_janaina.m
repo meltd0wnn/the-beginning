@@ -31,5 +31,9 @@ hold on
 plot(z,zz)
 acel = -24.3494*0*sin(368.823*t) - 88.148*sin(737.646*t);
 %plot (t, acel, '.--')
+title('Resposta no tempo')
+xlabel('Tempo (s)')
+ylabel('Aceleração (m/s^2)')
+legend('Resposta analítica', 'Dados do experimento')
 hold off
 %}
